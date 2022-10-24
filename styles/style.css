@@ -154,7 +154,7 @@ img {
 }
 .cta-section__subtitle {
   color: #fff;
-  font-family: "Freestyle Script", sans-serif;
+  font-family: 'Freestyle Script Normal', arial;
   font-size: 40px;
   font-weight: 200;
 }
@@ -173,7 +173,7 @@ img {
 
 .classes__subtitle {
   color: #777777;
-  font-family: "Freestyle Script", sans-serif;
+  font-family: 'Freestyle Script Normal', arial;
   font-size: 40px;
   text-align: center;
   margin: 0;
