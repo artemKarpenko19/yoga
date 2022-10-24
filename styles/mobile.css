@@ -1,0 +1,224 @@
+
+/* Mobile  */
+@media (max-width: 576px) {
+    .container {
+        padding: 0 5px;
+        margin: 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(0%);
+    }
+    .header.is-active {
+            height: 75px;
+            overflow: hidden;
+            transition: ease 0.5s;
+    }
+
+    .hamburger {
+        display: flex;
+        height: 75px;
+        padding: 30px 20px;
+    }
+
+    .nav__menu {
+        z-index: 2;
+        flex-direction: column;
+        background-color:#fff;
+        height: auto;
+        transform: translateY(-350%);
+        transition: 0.5s ease;
+        padding: 20px;
+    }
+
+    .nav__menu.is-active {
+        transform: translateY(0%);  
+    } 
+
+    .nav__menu .logo {
+        order: 1;
+        display: flex;
+        vertical-align: middle;
+        padding: 0;
+        
+    }
+    .logo img {
+        max-width:100%;
+        padding: 0;
+    }
+
+    .logo h2{
+        padding-left: 20px;
+        line-height: 1px;
+        
+    }
+
+    .nav__menu a {
+        order: 2;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+    .nav__menu a:after {
+        left: 25%;
+    }
+    .cta-section {
+        flex-wrap: wrap; 
+        flex-direction: row-reverse;
+        padding: 20px 10px;
+    }
+    .cta-section__form {
+        width: 80%;
+        order: 2;    
+    }
+    .cta-section__title-holder {
+        margin: 0;  
+        padding: 10px;
+        order: 1;
+    }
+
+    .cta-section__button {
+        width: 50%;
+        margin-left: 50%;
+    }
+    
+    .classes__subtitle {
+        padding-bottom: 15px;
+    }
+
+    .cards-item {
+        width:100%;
+        flex-wrap: wrap;
+    }
+    
+    .cards-item img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .gallery__image-link {
+        width:50%;
+    }
+
+    .about-us {
+        padding: 30px 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-us__desc {
+        margin: 0;
+        width: 100%;
+        text-align: justify;
+    }
+    .about-us__slider {
+        width: 100%;
+    }
+    .about-us__slider .swiper-button-prev,
+    .about-us__slider .swiper-button-next {
+        display: none;
+    }
+    .features {
+        flex-wrap:wrap;
+        height: auto;
+        padding: 20px 10px;
+        text-align: justify;
+    }
+    .features__item {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .prices {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .prices__card {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .prices__card-btn {
+        margin-bottom: 20px;
+    }
+
+    .trainer {
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    }
+    .trainer img {
+        margin: 0;
+    }
+    .image__wrapper {
+        margin: 20px;
+       
+    }
+    .trainer__text {
+        margin: 20px;
+    }
+
+    .trainer-title::before {
+    left: -50px;
+    top: -15px;
+    font-size: 90px;
+    }
+    .trainer {
+        position: relative;
+    }
+    .trainer__pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+        top: 190px;
+        left: calc(50% - 50px);
+        right: auto;
+        width: 100%;
+        max-width: 100px;
+        transform: rotate(0deg);
+      }
+    .swiper-slide.next-trainer__slide {
+        visibility: hidden;
+    }
+    .next-trainer-slider-btn-prev,
+    .next-trainer-slider-btn-next {
+        display: none;
+}
+.section {
+    padding: 20px 10px 40px 10px ;
+}
+.next-trainer-slider-block {
+    height: 0px;
+}
+.footer-top {
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.footer-top__about {
+    width: 100%;
+}
+
+.footer-top__about p {
+    width: 100%;
+    text-align: justify;
+}
+
+.footer__about__socials {
+    margin: 40px 0;
+}
+.footer-top__contact-us {
+    width: 100%;
+}
+.contact-us__link {
+    width: 100%;
+}
+}
+
+
+
+/* Tablets */
+@media (max-width: 998px) {
+    
+}

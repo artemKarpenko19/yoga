@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device - width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/lightbox.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/icon-font.css">
+    <link rel="stylesheet" href="styles/hamburgers.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/freestyle-script" rel="stylesheet" >
+    <link rel="stylesheet" href="styles/style.css" >
+    <link rel="stylesheet" href="styles/mobile.css">
+    <title>Yoga</title>
+  </head>
+  <body>
+    <div class="header">
+      
+      <div class="nav__menu is-active">
+        <a href="#anchor-1">About Us</a>
+        <a href="#anchor-2">Reservation</a>
+        <a href="#anchor-3">Gallery</a>
+
+        <div class="logo">
+          <img src="img/logo.png" alt="logo">
+          <h2>Yoga</h2>
+        </div>
+        <a href="#anchor-4">Blog</a>
+        <a href="#anchor-5">Elements</a>
+        <a href="#anchor-6">Shop</a>
+      </div>
+      <button class="hamburger hamburger--elastic is-active" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+    <div class="cta-section">
+      <form class="cta-section__form" action="#">
+        <h2>Trial Class</h2>
+        <input class="cta-section__form__text-input" type="text" placeholder="Enter your name" required="required">
+        <input class="cta-section__form__text-input"
+          type="tel"
+          pattern="[0-9]{10}]"
+          maxlength="10"
+          minlength="10"
+          placeholder="Enter your phone"
+          required="required"
+        >
+        <select name="class__type" required="required">
+          <option value="">Chose your class</option>
+          <option value="First">First</option>
+          <option value="Second">Second</option>
+          <option value="Third">Third</option>
+        </select>
+        <input class="cta-section__form__text-input cta-section__button" type="submit" value="Try it">
+      </form>
+      <div class="cta-section__title-holder">
+        <h2 class="cta-section__title">
+          Just balance<br>
+          your mind & body
+        </h2>
+        <h2 class="cta-section__subtitle">
+          Create the healthy living<br>
+          for yourself
+        </h2>
+      </div>
+    </div>
+     <section class="section" id="anchor-2">
+      <div class="container">
+        <h2 class="classes__title">Yoga feature program</h2>
+        <h2 class="classes__subtitle">Our classes</h2>
+
+        <div class="cards__holder">
+          <div class="cards-item">
+            <img src="img/card-1.jpg" alt="card_1">
+            <div class="card__text">
+              <h2>Yoga for health</h2>
+              <p>
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                inim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </p>
+              <a href="#">Ashtanga - Hatha</a>
+            </div>
+          </div>
+          <div class="cards-item">
+            <img src="img/card-2.jpg" alt="card_1">
+            <div class="card__text">
+              <h2>Yoga for lose weight</h2>
+              <p>
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                inim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </p>
+              <a href="#">Ashtanga - Hatha</a>
+            </div>
+          </div>
+          <div class="cards-item">
+            <img src="img/card-3.jpg" alt="card_1">
+            <div class="card__text">
+              <h2>Yoga for children</h2>
+              <p>
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                inim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </p>
+              <a href="#">Ashtanga - Hatha</a>
+            </div>
+          </div>
+          <div class="cards-item">
+            <img src="img/card-4.jpg" alt="card_1">
+            <div class="card__text">
+              <h2>Yoga for elders</h2>
+              <p>
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                inim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </p>
+              <a href="#">Ashtanga - Hatha</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gallery" id="anchor-3">
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-1.jpg"
+        data-lightbox="example-set"
+        data-title="Or press the right arrow on your keyboard."
+        ><img class="gallery__image" src="img/gallery/photo-1.jpg" alt="gallery-1">
+      </a>
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-2.jpg"
+        data-lightbox="example-set"
+        data-title="The next image in the set is preloaded as you're viewing."
+        ><img class="gallery__image" src="img/gallery/photo-2.jpg" alt="gallery-2">
+      </a>
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-3.jpg"
+        data-lightbox="example-set"
+        data-title="Click the right half of the image to move forward."
+        ><img class="gallery__image" src="img/gallery/photo-3.jpg" alt="gallery-3">
+      </a>
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-4.jpg"
+        data-lightbox="example-set"
+        data-title="Click anywhere outside the image or the X to the right to close."
+        ><img class="gallery__image" src="img/gallery/photo-4.jpg" alt="gallery-4">
+      </a>
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-5.jpg"
+        data-lightbox="example-set"
+        data-title="Click the right half of the image to move forward."
+        ><img class="gallery__image" src="img/gallery/photo-5.jpg" alt="gallery-5">
+      </a>
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-6.jpg"
+        data-lightbox="example-set"
+        data-title="Or press the right arrow on your keyboard."
+        ><img class="gallery__image" src="img/gallery/photo-6.jpg" alt="gallery-6">
+      </a>
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-7.jpg"
+        data-lightbox="example-set"
+        data-title="The next image in the set is preloaded as you're viewing."
+        ><img class="gallery__image" src="img/gallery/photo-7.jpg" alt="gallery-7">
+      </a>
+      <a
+        class="gallery__image-link"
+        href="img/gallery/lg/photo-8.jpg"
+        data-lightbox="example-set"
+        data-title="Click anywhere outside the image or the X to the right to close."
+        ><img class="gallery__image" src="img/gallery/photo-8.jpg" alt="gallery-8">
+      </a>
+    </div>
+      
+    <section class="about-us container" id="anchor-1">
+      <div class="about-us__desc">
+        <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
+        </p>
+      </div>
+      <div class="about-us__slider">
+        <div class="swiper about-us__slider-js">
+        
+          
+          <div class="swiper-wrapper">
+           
+            <div class="swiper-slide"><img src="img/swiper-1.jpg" alt="swiper-1"></div>
+            <div class="swiper-slide"><img src="img/swiper-2.jpg" alt="swiper-2"></div>
+            <div class="swiper-slide"><img src="img/swiper-3.jpg" alt="swiper-3"></div>
+          </div>
+         
+          <div class="swiper-pagination about-us__pagination"></div>
+        </div>
+        
+        <div class="swiper-button-prev about-us__btn-prev"></div>
+        <div class="swiper-button-next about-us__btn-next"></div>
+      </div>
+    </section> 
+    <div class="features" id="anchor-5">
+      <div class="features__item">
+        <img src="img/feature-1.png" alt="feature-1">
+        <h3>IMPROVED OVERALL<br> HEALTH</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+      <div class="features__item">
+        <img src="img/feature-2.png" alt="feature-1">
+        <h3>INCREASED <br> CONCENTRATION</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+      <div class="features__item">
+        <img src="img/feature-3.png" alt="feature-1">
+        <h3>BALANCE <br> YOUR MIND</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+      <div class="features__item">
+        <img src="img/feature-4.png" alt="feature-1">
+        <h3>SLEEP <br> BETTER</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+      <div class="features__item">
+        <img src="img/feature-5.png" alt="feature-1">
+        <h3>WEIGHT LOSS</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+      <div class="features__item">
+        <img src="img/feature-6.png" alt="feature-1">
+        <h3>STRENGTHENS <br> YOUR BONES</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+      <div class="features__item">
+        <img src="img/feature-7.png" alt="feature-1">
+        <h3>IINCREASED <br> FLEXIBILITY</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+      <div class="features__item">
+        <img src="img/feature-8.png" alt="feature-1">
+        <h3>LOWER BLOOD <br> PRESSURE</h3>
+        <p>Enim ad minim veniam, quis nostrud exercitation toui ullamcomi.Enim ad minim veniam, quis </p>
+      </div>
+    </div>
+    <div class="prices" id="anchor-6">
+        <div class="prices__card">
+          <div class="prices__card-top">
+            <h3><span class="prices__card-currency">$ </span><span class="prices__card-price">49</span> / month</h3>
+          </div>
+          <ul>
+            <li>ENTRY DATE: MON-FRI</li>
+            <li>FRI ENTRY TIME: 8A.M-8P.M</li>
+            <li>NUTRITION ADVICER: NO</li>
+          </ul>
+          <button class="prices__card-btn">Buy now</button>
+        </div>
+        <div class="prices__card">
+          <div class="prices__card-top">
+            <h3><span class="prices__card-currency">$ </span><span class="prices__card-price">69</span> / month</h3>
+          </div>
+          <ul>
+            <li>ENTRY DATE: MON-FRI</li>
+            <li>FRI ENTRY TIME: 8A.M-8P.M</li>
+            <li>NUTRITION ADVICER: YES</li>
+          </ul>
+          <button class="prices__card-btn">Buy now</button>
+        </div>
+        <div class="prices__card">
+          <div class="prices__card-top">
+            <h3><span class="prices__card-currency">$ </span><span class="prices__card-price">99</span> / month</h3>
+          </div>
+          <ul>
+            <li>ENTRY DATE: MON-FRI</li>
+            <li>FRI ENTRY TIME: 8A.M-8P.M</li>
+            <li>NUTRITION ADVICER: YES</li>
+          </ul>
+          <button class="prices__card-btn">Buy now</button>
+        </div>
+      
+    </div> 
+   
+ <section class="section" id="anchor-4">
+    <div class="container trainer__container">    
+      <div class="swiper trainer__slider">
+        
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide trainer">
+            <div class="image__wrapper">
+              <img src="img/trainer.jpg" alt="trainer-photo-1">
+            </div>
+            <div class="trainer__text">
+              <blockquote> Lorem ipsum dolor sit amet, 
+              consectetur adipisicing elit. Cum, labore porro vitae, e
+              ius consequatur delectus modi voluptate rerum, asperiores hic natus. Atque 
+              repellendus, beatae sit iure unde, hic aliquam dolorum natus ?
+              
+              </blockquote>
+              <div class="trainer-title">
+                <h4>Trainer</h4>
+                <h3>Laura Shepard</h3> 
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide trainer">
+            <div class="image__wrapper">
+              <img src="img/trainer.jpg" alt="trainer-photo-2">
+            </div>
+            <div class="trainer__text">
+              <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Accusantium, tenetur quidem omnis doloribus id inventore rerum eveniet 
+                qui numquam illum!
+              </blockquote>
+              <div class="trainer-title">
+                <h4>Trainer</h4>
+                <h3>Laura Shepard</h3> 
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide trainer">
+            <div class="image__wrapper">
+              <img src="img/trainer.jpg" alt="trainer-photo-3">
+            </div>
+            <div class="trainer__text">
+              <blockquote> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur omnis
+                 doloribus magni nostrum praesentium iusto eveniet assumenda. Perspiciatis atque voluptatibus 
+                 officiis nostrum ad incidunt nemo aspernatur tenetur modi asperiores explicabo magni beatae dicta n
+                 atus blanditiis, voluptas perferendis libero et. Asperiores iusto suscipit velit odit 
+                 dolorem nesciunt rem odio ex vero!
+              </blockquote>
+              <div class="trainer-title">
+                <h4>Trainer</h4>
+                <h3>Laura Shepard</h3> 
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div> 
+      <div class="swiper-pagination trainer__pagination next-trainer__pagination"></div>
+    </div>
+    <div class="next-trainer-slider-block">
+      <div class="swiper next-trainer-slider container">
+       
+        <div class="swiper-wrapper">
+         
+          <div class="swiper-slide next-trainer__slide">
+            <img src="img/trainer-photo-1.jpg" alt="trainer-1">
+            <div class="next-trainer__title">
+              <h3 class="next-trainer__name">Sara Taylor 1</h3>
+              <h4 class="next-trainer__position">Trainer</h4>
+            </div>
+            
+          </div>
+          <div class="swiper-slide next-trainer__slide">
+            <img src="img/trainer-photo-1.jpg" alt="trainer-2">
+            <div class="next-trainer__title">
+              <h3 class="next-trainer__name">Sara Taylor 2</h3>
+              <h4 class="next-trainer__position">Trainer</h4>
+            </div>
+            
+          </div>
+          <div class="swiper-slide next-trainer__slide">
+            <img src="img/trainer-photo-1.jpg" alt="trainer-3">
+            <div class="next-trainer__title">
+              <h3 class="next-trainer__name">Sara Taylor 3</h3>
+              <h4 class="next-trainer__position">Trainer</h4>
+            </div>
+          </div>
+        </div>
+       
+      
+        <div class="swiper-button-prev next-trainer-slider-btn-prev"></div>
+        <div class="swiper-button-next next-trainer-slider-btn-next"></div>
+  
+      </div>
+    </div>
+
+    
+    
+ </section>
+ <footer>
+    <div class="footer-top">
+      <div class="footer-top__about">
+        <h3>About</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Assumenda provident itaque dicta autem id officiis 
+          debitis tenetur molestias error hic. Lorem ipsum dolor sit amet consectetur, 
+          adipisicing elit. Adipisci, dolores. </p>
+        <div class="footer__about__socials">
+         <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+         <a href=""><i class="fa-brands fa-twitter"></i></a>
+         <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+         <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+         <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-top__contact-us">
+        <h3>Contact us</h3>
+        <div class="contact-us__links">
+          <p class="contact-us__link">
+            <i class="fa-sharp fa-solid fa-map-location-dot"></i>
+            <a href="#">5419 Joseph Mountains <br> <span class="contact-us__address">Apt. 716</span>
+            </a>
+          </p>
+          <p class="contact-us__link"><i class="fa-regular fa-envelope"></i> <a href="mailto:joga.info@example.com">joga.info@example.com</a></p>
+          <p  class="contact-us__link">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+1234567890">+1 234 567 89</a><br>
+            <a class="contact-us__link__phone" href="tel:+123467890">+1 234 678 90</a>
+          </p>
+          <p class="contact-us__link">
+            <i class="fa-solid fa-earth-europe"></i>
+            <a href="http://www.example.com">www.example.com</a></p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright  ©  2016-2017 Yoga classes</p>
+    </div>
+ </footer> 
+
+    <script src="script/jquery-3_6_1.js"></script>
+    <script src="script/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script/jquery.mask.min.js"></script>
+    <script src="script/script.js"></script>
+
+  </body>
+</html>
