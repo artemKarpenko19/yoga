@@ -11,19 +11,24 @@ new Swiper( ".about-us__slider-js" , {
     },
 });
 
-new Swiper( ".trainer__slider" , {
+let trainerSlider = new Swiper( ".trainer__slider" , {
+    
     navigation : {
         nextEl: ".next-trainer-slider-btn-next",
         prevEl: ".next-trainer-slider-btn-prev"
     },
 
+    slidesPerView: 1 ,
+    spaceBetween: 20,
+
+
     pagination: {
-        el: '.trainer__pagination',
+        el: '.next-trainer__pagination',
         clickable: true
     },
 });
 
-new Swiper( ".next-trainer-slider " , {
+let nextTrainerSlider = new Swiper( ".next-trainer-slider " , {
     
     navigation : {
         nextEl: ".next-trainer-slider-btn-next",
@@ -34,6 +39,7 @@ new Swiper( ".next-trainer-slider " , {
         el: '.next-trainer__pagination',
         clickable: true
     },
+   
 });
 
 $(document).ready(function() {
@@ -44,3 +50,8 @@ $(document).ready(function() {
         $('.hamburger,.nav__menu,.header').toggleClass('is-active');
     })
 });
+
+
+nextTrainerSlider.controller.control = trainerSlider;
+trainerSlider.controller.control = nextTrainerSlider;
+
