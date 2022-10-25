@@ -10,11 +10,12 @@
         display: flex;
         justify-content: space-between;
         transform: translateY(0%);
+        height: 75px;
+        overflow: hidden;
     }
     .header.is-active {
-            height: 75px;
-            overflow: hidden;
             transition: ease 0.5s;
+            height: fit-content;
     }
 
     .hamburger {
@@ -28,13 +29,13 @@
         flex-direction: column;
         background-color:#fff;
         height: auto;
-        transform: translateY(-350%);
+        transform: translateY(0%);
         transition: 0.5s ease;
         padding: 20px;
     }
 
     .nav__menu.is-active {
-        transform: translateY(0%);  
+        transform: translateY(-350%);  
     } 
 
     .nav__menu .logo {
@@ -73,9 +74,10 @@
         order: 2;    
     }
     .cta-section__title-holder {
-        margin: 0;  
+        margin: 0 auto;  
         padding: 10px;
         order: 1;
+        text-align: center;
     }
 
     .cta-section__button {
@@ -106,10 +108,11 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    
     .about-us__desc {
         margin: 0;
         width: 100%;
-        text-align: justify;
+        text-align: center;
     }
     .about-us__slider {
         width: 100%;
@@ -207,15 +210,33 @@
 
 .footer__about__socials {
     margin: 40px 0;
+    text-align: center;
 }
 .footer-top__contact-us {
     width: 100%;
+    margin: 0 auto;
+    text-align: justify;
 }
 .contact-us__link {
     width: 100%;
-}
+    text-align: center;
 }
 
+.fa-phone {
+    left: -35px;
+}
+.fa-earth-europe {
+    position: relative;
+    top: 0px;
+    left: -20px;
+
+}
+
+.footer-top h3 {
+    text-align: center;
+}
+
+}
 
 
 /* Tablets */
