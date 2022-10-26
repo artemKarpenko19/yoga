@@ -45,9 +45,15 @@ let nextTrainerSlider = new Swiper( ".next-trainer-slider " , {
 $(document).ready(function() {
     $('input[type="tel"]').mask('+380-0000-000-00');
 
-    // burger menu
+    // burger 
+    $('.hamburger,.nav__menu,.header',).removeClass('is-active'),
     $('.hamburger').on('click', function(){
-        $('.hamburger,.nav__menu,.header').toggleClass('is-active');
+        $('.hamburger').toggleClass('is-active');
+        $('.nav__menu,.header').toggleClass('is-active');
+    })
+    $('.nav__menu').on('click', function(){
+        $('.hamburger').toggleClass('is-active');
+        $('.nav__menu,.header').toggleClass('is-active');
     })
 });
 
