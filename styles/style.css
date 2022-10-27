@@ -340,18 +340,25 @@ transition: 0.5s;
   justify-content: center;
 }
 
+.swiper.prices__slider {
+  min-width: 0px;
+}
 .prices__card {
-  width: 370px;
-  height: 500px;
+  width: auto;
+  height: auto;
   background-color:#FFF;
-  border-radius:30px;
+  border-radius:20px;
   overflow: hidden;
-  margin-left: 30px;
 }
 
 .prices__card:first-child {
-  margin-left: 0;
+  margin-left: 10px;
 }
+
+.prices__card:last-child {
+  margin-right: 0px;
+}
+
 
 .prices__card-top {
   background-color: #5b6ceb;
@@ -433,11 +440,16 @@ transition: 0.5s;
   text-align: center;
   display: block;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .prices__card-btn:hover {
   background-color: #5363db;
   transition: 0.3s;
+}
+.swiper-wrapper.prices__slider__swiper-wrapper {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
