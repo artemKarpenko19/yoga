@@ -9,7 +9,33 @@ new Swiper( ".about-us__slider-js" , {
         el: '.about-us__pagination',
         clickable: true
     },
+   
 });
+let pricesSlider = new Swiper( ".prices__slider" , {
+    slidesPerView: 3 ,
+    loop: true,
+    spaceBetween: 20,
+    effect: 'slide',
+    pagination: {
+        el: '.prices__pagination',
+        clickable: true
+    },
+    breakpoints: {
+        320 : {
+             spaceBetween: 20,
+             slidesPerView: 1,
+             centeredSlides: true,
+             centeredSlidesBounds: true,
+             
+             },
+    
+        900: {
+            slidesPerView: 3 ,
+            spaceBetween: 20,
+        }}
+});
+
+
 
 let trainerSlider = new Swiper( ".trainer__slider" , {
     
@@ -55,6 +81,8 @@ $(document).ready(function() {
         $('.hamburger').toggleClass('is-active');
         $('.nav__menu,.header').toggleClass('is-active');
     })
+
+    
 });
 
 
