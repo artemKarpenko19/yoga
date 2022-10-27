@@ -5,7 +5,7 @@
         padding: 0 5px;
         margin: 0;
     }
-
+    
     .header {
         display: flex;
         justify-content: space-between;
@@ -24,6 +24,7 @@
             height: 350px;
             transition: height 0.5s ease 0s;
         }
+
 
     .hamburger {
         display: flex;
@@ -122,6 +123,7 @@
         padding: 30px 10px;
         flex-wrap: wrap;
         justify-content: center;
+        scroll-margin-top:350px;
     }
     
     .about-us__desc {
@@ -136,11 +138,19 @@
     .about-us__slider .swiper-button-next {
         display: none;
     }
+
+    .section.classes {
+        scroll-margin-top:350px;
+    }
+    .gallery {
+        scroll-margin-top:350px;
+    }
     .features {
         flex-wrap:wrap;
         height: auto;
         padding: 20px 10px;
         text-align: justify;
+        scroll-margin-top: 350px ;
     }
     .features__item {
         width: 100%;
@@ -150,6 +160,7 @@
     .prices {
         flex-wrap: wrap;
         padding: 20px;
+        scroll-margin-top: 350px ;
     }
 
     .prices__card {
@@ -159,6 +170,9 @@
     }
     .prices__card-btn {
         margin-bottom: 20px;
+    }
+    .section.trainer-slider-section {
+        scroll-margin-top: 350px ;
     }
 
     .trainer {
