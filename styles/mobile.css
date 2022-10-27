@@ -140,10 +140,10 @@
     }
 
     .section {
-        scroll-margin-top:350px;
+        scroll-margin-top: 350px;
     }
     .gallery {
-        scroll-margin-top:350px;
+        scroll-margin-top: 350px;
     }
     .features {
         flex-wrap:wrap;
