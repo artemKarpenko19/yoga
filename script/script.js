@@ -14,8 +14,13 @@ new Swiper( ".about-us__slider-js" , {
 let pricesSlider = new Swiper( ".prices__slider" , {
     slidesPerView: 3 ,
     loop: true,
+    initialSlide:0,
     spaceBetween: 20,
     effect: 'slide',
+    autoplay:{
+        delay: 1000,
+        stopLastSlide: false,
+    },
     pagination: {
         el: '.prices__pagination',
         clickable: true
@@ -26,8 +31,6 @@ let pricesSlider = new Swiper( ".prices__slider" , {
              spaceBetween: 20,
              slidesPerView: 1,
              centeredSlides: true,
-             centeredSlidesBounds: true,
-             
              },
     
         900: {
