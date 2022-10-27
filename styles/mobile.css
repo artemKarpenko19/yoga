@@ -39,8 +39,6 @@
         flex-direction: column;
         background-color:#fff;
         height: auto;
-        /* transform: translateY(-350%); */
-        
         transition: 0.5s ease;
         padding: 20px;
         margin-top: 40px;
