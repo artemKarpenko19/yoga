@@ -26,14 +26,14 @@ let pricesSlider = new Swiper( ".prices__slider" , {
         clickable: true
     },
     breakpoints: {
-        320 : {
+        280 : {
             enabled: true,
              spaceBetween: 20,
              slidesPerView: 1,
              centeredSlides: true,
              },
     
-        900: {
+        1052: {
             slidesPerView: 3 ,
             spaceBetween: 20,
             enabled: false,
